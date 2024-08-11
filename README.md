@@ -5,7 +5,7 @@ $ git clone https://github.com/MahshadAzizi/mahshad_azizi_achare.git
 $ cd mahshad_azizi_achare
 ```
 ## How to run the app:
-Via docker-compose
+Local
 ```sh
 $ python manage.py migrate
 $ python manage.py runserver
