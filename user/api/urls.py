@@ -11,7 +11,7 @@ urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
     path('signup/', SignupView.as_view(), name='signup'),
     path('otp/', OTPView.as_view(), name='otp'),
-    path('check_otp/', CheckOTPView.as_view(), name='check-otp'),
+    path('validateOTP/', CheckOTPView.as_view(), name='check-otp'),
 
 ]
 
