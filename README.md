@@ -10,3 +10,15 @@ Local
 $ python manage.py migrate
 $ python manage.py runserver
 ```
+## Environment variables
+- SECRET_KEY:
+- DEBUG:
+- ALLOWED_HOSTS:
+- DATABASE_NAME:
+- DATABASE_USER:
+- DATABASE_PASS:
+- DATABASE_HOST:
+- DATABASE_PORT:
+- REDIS_HOST:
+- REDIS_PORT:
+- REDIS_DB:
