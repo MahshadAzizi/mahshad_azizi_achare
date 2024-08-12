@@ -1,13 +1,10 @@
 from django.db import models
 
-from config import settings
-
 
 class OTP(models.Model):
-    user = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.CASCADE,
-        related_name='otp',
+    phone_number = models.CharField(
+        null=True,
+        max_length=15,
     )
 
     code = models.CharField(
